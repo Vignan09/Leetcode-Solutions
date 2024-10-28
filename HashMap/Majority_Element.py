@@ -1,5 +1,5 @@
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums) -> int:
         dict={}
         for i in nums:
             if i in dict:
